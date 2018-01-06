@@ -5,8 +5,13 @@ $(document).ready(function(){
     $(".menu-items").toggleClass("is-active");
   });
 
-  function getContent(){
-    document.getElementById('input-name').value=document.getElementById('content-name').innerHTML;
-    document.getElementById('input-email').value=document.getElementById('content-email').innerHTML;
-  }
+  $(".testbtn").click(function(){
+    console.log(getContent);
+  });
+
 });
+
+function getContent(){
+  document.getElementById('input-name').value=document.getElementById('content-name').innerHTML;
+  document.getElementById('input-email').value=document.getElementById('content-email').innerHTML;
+}
