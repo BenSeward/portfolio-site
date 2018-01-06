@@ -35,7 +35,7 @@ h3 {
   font-size: 18pt;
 }
 
-a, span, p {
+a, span, p, button {
   font-size: 13pt;
   line-height: 1.75em;
   font-family: 'TisaPro';
@@ -448,4 +448,10 @@ button.std-button {
   border: 1px solid #ddd;
   display: inline-block;
   clear: both;
+  transition: all 0.4s ease-in-out;
+}
+
+button.std-button:hover {
+  background: #000;
+  color: #fff;
 }
