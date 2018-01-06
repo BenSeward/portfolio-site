@@ -371,7 +371,7 @@ ul.project-requirements li:before {
 a.std-button {
   padding: 0.25em 0.75em;
   display: inline-block;
-  border: 2px solid #000;
+  border: 1px solid #000;
   text-transform: uppercase;
   transition: 0.4s all ease-in-out;
 }
@@ -443,16 +443,17 @@ form.form-hidden input {
   display: none;
 }
 
-button.std-button {
-  padding: 0.5em 1em;
+button.form-submit {
+  padding: 1em 1.5em;
   font-family: 'TisaPro';
-  border: 1px solid #ddd;
+  border: 1px solid #000;
+  background-color: #fff;
   display: inline-block;
   clear: both;
   transition: all 0.4s ease-in-out;
 }
 
-button.std-button:hover {
+button.form-submit:hover {
   background: #000;
   color: #fff;
 }
