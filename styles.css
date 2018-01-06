@@ -430,6 +430,10 @@ input, textarea {
   height: 2px;
 }
 
+form.form-hidden input {
+  display: none;
+}
+
 button.std-button {
   padding: 0.5em 1em;
   border: 1px solid #ddd;
