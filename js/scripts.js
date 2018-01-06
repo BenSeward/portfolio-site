@@ -11,7 +11,8 @@ $(document).ready(function(){
 
 });
 
-function getContent(){
+function getFormContent(){
   document.getElementById('input-name').value=document.getElementById('content-name').innerHTML;
   document.getElementById('input-email').value=document.getElementById('content-email').innerHTML;
+  document.getElementById('input-message').value=document.getElementById('content-message').innerHTML;
 }
