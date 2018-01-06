@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ben Seward | Front-End Web Designer</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/parallax.min.js"></script>
+  </head>
+  <body>
+    <div class="menu-background">
+      <div class="menu-block-first"></div>
+      <div class="menu-block-second"></div>
+      <div class="menu-block-third"></div>
+    </div>
+
+    <div class="menu-container">
+      <div class="hamburger" id="hamburger-1">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+
+    <div class="menu-items">
+      <ul>
+        <li>Home</li>
+        <li>Recent Work</li>
+        <li>Contact Me</li>
+      </ul>
+    </div>
+
+    <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/nebula.jpg" data-natural-width="1400" data-natural-height="1400" style="height: 70vh;"></div>
+
+    <section class="container">
+      <div class="content">
+
+        <div class="title-block">
+          <h1>Ben Seward</h1>
+          <span>Hi, I'm Ben &amp; I am a Front-End Designer from England.</span>
+        </div>
+
+        <p>My name is Ben Seward. I am a multi disciplinary designer/front-end developer based in Bath, UK. I have over 5 years professional experience predominantly within the e-commerce sector designing beautiful interfaces, websites and marketing pieces for companies of varying sizes. Currently I am working as an e-commerce manager whilst also producing regular freelance work.</p>
+
+        <p>My experience started with simple web design, quickly moving onto Wordpress catalogue sites and then onto Magento which is the e-commerce platform I have been developing on for some time now. If you're a small business looking for a web presence email me at ben.seward@googlemail.com and I'm happy to help.</p>
+
+      </div>
+
+      <div class="title-block">
+        <h1>Recent Work</h1>
+        <span>Take a look at some of the things I've been building recently.</span>
+      </div>
+
+      <div class="project-container">
+        <div class="project-item">
+          <div class="project-image">
+            <img class="project-thumbnail" src="img/portfolio-shots/tala/thumbnail.jpg" alt="Tala Portfolio Shot"  data-tilt="" data-tilt-max="10" data-tilt-speed="3000">
+          </div>
+          <div class="project-content">
+            <h2>Tala Cookware</h2>
+            <p>Lorem ipsum sit dolor amet, lorem ipsum sit dolor amet. Lorem upsum sit dolor.</p>
+            <ul class="project-requirements">
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+            </ul>
+            <a class="std-button">Learn More</a>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-image">
+            <img class="project-thumbnail" src="img/portfolio-shots/tala/thumbnail.jpg" alt="Tala Portfolio Shot" data-tilt="" data-tilt-max="10" data-tilt-speed="3000">
+          </div>
+          <div class="project-content">
+            <h2>Tala Cookware</h2>
+            <p>Lorem ipsum sit dolor amet, lorem ipsum sit dolor amet. Lorem upsum sit dolor.</p>
+            <ul class="project-requirements">
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+            </ul>
+            <a class="std-button">Learn More</a>
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-image">
+            <img class="project-thumbnail" src="img/portfolio-shots/tala/thumbnail.jpg" alt="Tala Portfolio Shot" data-tilt="" data-tilt-max="10" data-tilt-speed="3000">
+          </div>
+          <div class="project-content">
+            <h2>Tala Cookware</h2>
+            <p>Lorem ipsum sit dolor amet, lorem ipsum sit dolor amet. Lorem upsum sit dolor.</p>
+            <ul class="project-requirements">
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+              <li>Test Item</li>
+            </ul>
+            <a class="std-button">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container contact-container">
+        <div class="title-block">
+          <h1>Lets Talk</h1>
+          <span>I'm always interested in talking about new &amp; exciting projects.</span>
+        </div>
+        <div class="form-container">
+          <span class="contact-text">Hey! My name is </span>
+          <div data-name="" id="content-name" class="inline-input" placeholder="Joe Bloggs" data-target="inline-input-name" contenteditable=""></div>
+          <span class="contact-text">and my email address is</span>
+          <div data-name="" id="contenet-email" class="inline-input" placeholder="joe.bloggs@testing.com" data-target="inline-input-name" contenteditable=""></div>
+          <span class="contact-text">. I'd like to talk with you about</span>
+          <div data-name="" class="inline-input" placeholder="a exciting new web project we're working on." data-target="inline-input-name" contenteditable=""></div>
+
+          <form class="form-hidden" action="https://formspree.io/ben.seward@googlemail.com" method="POST" onsubmit="return getContent()">
+              <input id="input-name" type="text" name="name">
+              <input id="input-email" type="email" name="_replyto">
+              <input type="submit" value="Send">
+          </form>
+
+        </div>
+      </div>
+
+    </section>
+    <div class="parallax-container" data-parallax="scroll" data-bleed="10" data-speed="0.2" data-image-src="./img/nebula.jpg" data-natural-width="1400" data-natural-height="1400" style="height: 70vh;"></div>
+
+    <script type="text/javascript" src="js/tilt.jquery.js"></script>
+  </body>
+</html>
