@@ -15,7 +15,8 @@ $(document).ready(function(){
     //new ScrollMagic Scene
     var scene = new ScrollMagic.Scene({
       triggerElement: this,
-      reverse: false
+      reverse: false,
+      triggerHook: 0.9
     })
 
     .setClassToggle(this, "fade-in")
