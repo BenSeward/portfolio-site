@@ -85,8 +85,6 @@ a, span, p  {
   line-height: 2em;
 }
 
-
-
 .menu-block-first {
   width: 100px;
   height: 30%;
@@ -248,6 +246,18 @@ a, span, p  {
   margin: auto;
 }
 
+.hands-container {
+  display: block;
+  margin: auto;
+  transform: translateY(-97px);
+  margin-bottom: -231px;
+
+}
+
+.hand-left {
+  float: right;
+}
+
 .title-block {
   text-align: center;
   margin: 8em 0;
@@ -264,7 +274,7 @@ a, span, p  {
 }
 
 .content-block.fade-in {
-  transform: translateY(50px);
+  transform: translateY(0px);
   opacity: 1;
   transition: all 1s ease-out;
 }
