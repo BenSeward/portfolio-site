@@ -249,9 +249,14 @@ a, span, p  {
 .hands-container {
   display: block;
   margin: auto;
-  transform: translateY(-97px);
-  margin-bottom: -231px;
+  transform: translateY(-77px);
+  margin-bottom: -130px;
+  max-width: 1020px;
 
+}
+
+.hands {
+  max-width: 285px;
 }
 
 .hand-left {
